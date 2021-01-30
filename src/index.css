@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Londrina Solid', cursive;
+ */
+
+*{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+
+}
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', sans-serif;
+  background: #F4F4F7;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Londrina Solid', cursive;
+}
+
+h1{
+  letter-spacing: 1.5px;
+}
+
+.badge-new-hero{
+  background-image: url("images/805197.jpg");
+  background-size: contain;
+  height: 35vh;
+}
