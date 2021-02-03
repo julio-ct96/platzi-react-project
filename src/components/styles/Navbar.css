@@ -1,5 +1,7 @@
 .navbar{
     background-color: #222222;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .logo-nav{

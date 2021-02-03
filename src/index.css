@@ -31,5 +31,12 @@ h1{
 .badge-new-hero{
   background-image: url("images/805197.jpg");
   background-size: contain;
-  height: 35vh;
+  height: 45vh;
+}
+
+.center-logo{
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

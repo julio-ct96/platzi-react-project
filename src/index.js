@@ -4,6 +4,7 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.css'
 import './index.css';
 import NewBadge from "./pages/NewBadge";
+import Badges from './pages/Badges'
 
 //const greetJSX = <h1>Hello World desde React</h1>;
 //const greet = React.createElement('a',{href: 'https://www.google.com'},'Hola! Soy los Children');
@@ -44,8 +45,4 @@ const greet = React.createElement(
 const container = document.getElementById('root');
 
 //ReactDOM.render(__que__, __donde__)
-ReactDOM.render(<NewBadge firstName="Julio"
-                       lastName="Saura"
-                       jobTitle="Frontend Developer"
-                       instagram="@jvlitrxs"
-                       hastag="NeverStopLearning"/>, container);
+ReactDOM.render(<Badges />, container);
